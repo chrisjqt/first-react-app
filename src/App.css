@@ -36,3 +36,50 @@
     transform: rotate(360deg);
   }
 }
+
+.section {
+  padding: 80px 20px;
+  min-height: 100vh;
+  text-align: center;
+  color: #fff;
+}
+
+.home-section {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+}
+
+.about-section {
+  background: linear-gradient(135deg, #1b263b, #0d1b2a);
+}
+
+.projects-section {
+  background: linear-gradient(135deg, #0d1b2a, #1b263b);
+}
+
+.contact-section {
+  background: linear-gradient(135deg, #1b263b, #0d1b2a);
+}
+
+.section h1, .section h2 {
+  color: #00b4d8;
+  margin-bottom: 1rem;
+}
+
+.section p, .section ul {
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 0.5rem;
+}
+
+html {
+  scroll-behavior: smooth;
+}
