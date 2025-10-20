@@ -26,6 +26,7 @@
   text-decoration: none;
   font-weight: 500;
   transition: 0.3s;
+  padding-bottom: 4px;
 }
 
 .nav-links a:hover,
@@ -67,4 +68,10 @@
   .nav-toggle {
     display: flex;
   }
+}
+
+.nav-links a.active {
+  color: #00b4d8;
+  border-bottom: 2px solid #00b4d8;
+  text-shadow: 0 0 8px rgba(0, 180, 216, 0.6);
 }
