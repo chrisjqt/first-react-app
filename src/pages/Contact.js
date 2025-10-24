@@ -16,17 +16,31 @@ function Contact() {
 
       <div className="contact-grid">
         <div className="contact-card">
-          <h3>Get in touch</h3>
-          <ul className="contact-list">
-            <li>
-              <span className="contact-label">Email</span>
-              <a href="mailto:chrisejaylord@gmail.com">chrisejaylord@gmail.com</a>
-            </li>
-            <li>
-              <span className="contact-label">Facebook</span>
-              <a href="https://www.facebook.com/Askaberados" target="_blank" rel="noopener noreferrer">Chris Jaylord Lacre</a>
-            </li>
-          </ul>
+          <h3>Let's Connect</h3>
+          <p className="contact-intro">Ready to work together or have a question? I'd love to hear from you!</p>
+          <div className="contact-info">
+            <div className="info-item">
+              <span className="info-icon">📍</span>
+              <div className="info-content">
+                <h4>Location</h4>
+                <p>Cebu, Philippines</p>
+              </div>
+            </div>
+            <div className="info-item">
+              <span className="info-icon">🎓</span>
+              <div className="info-content">
+                <h4>Education</h4>
+                <p>BSIT Student at CTU-Danao</p>
+              </div>
+            </div>
+            <div className="info-item">
+              <span className="info-icon">💻</span>
+              <div className="info-content">
+                <h4>Specialization</h4>
+                <p>Web Development & IoT</p>
+              </div>
+            </div>
+          </div>
         </div>
 
         <form className="contact-form" onSubmit={handleSubmit}>

@@ -44,7 +44,7 @@ function Navbar() {
 
   return (
     <nav className="navbar">
-      <div className="nav-logo">Portfolio</div>
+      <div className="nav-logo">Chris Jaylord Lacre</div>
 
       <div className={`nav-links ${isOpen ? 'open' : ''}`}>
         <a
