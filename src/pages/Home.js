@@ -30,6 +30,17 @@ function Home() {
               <p className="sub-desc">I love exploring <span className="accent">Web Development</span>, <span className="accent">IoT Systems</span>, and crafting digital solutions that make life easier.</p>
             </div>
 
+            <div style={{ margin: '20px 0' }}>
+              <a
+                href={require('../assets/Chris_Lacre_CV.pdf')}
+                download="Chris_Lacre_CV.pdf"
+                className="download-cv-btn"
+                >
+                Download CV
+              </a>
+            </div>
+
+
             <div className="social-links">
   <a href="https://www.facebook.com/Askaberados" target="_blank" rel="noopener noreferrer" className="social-link facebook">
     <img src={fbIcon} alt="Facebook" className="social-icon-img" />
