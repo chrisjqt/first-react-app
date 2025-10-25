@@ -32,8 +32,8 @@ function Home() {
 
             <div style={{ margin: '20px 0' }}>
               <a
-                href={require('../assets/Chris_Lacre_CV.pdf')}
-                download="Chris_Lacre_CV.pdf"
+                href={require('../assets/download.jpg')}
+                download="download.jpg"
                 className="download-cv-btn"
                 >
                 Download CV
